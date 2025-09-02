@@ -1,0 +1,25 @@
+jwt:
+  secret:
+    key: "FrE3QYNHEy0Wi5yu+Te0+LWLcwT7N7kGJINUFZFuxXM="
+
+logging:
+  level:
+    org.hibernate.SQL: DEBUG
+    org.hibernate.orm.jdbc.bind: TRACE
+
+
+# Lv-00
+#  Given
+#  스프링 부트 실행 시 UnsatisfiedDependencyException(filterConfig → jwtUtil) 발생.
+#  JwtUtil이 @Value("${jwt.secret.key}")를 요구. application.yml 없음.
+#
+#  When
+#  src/main/resources/application.yml 생성. jwt.secret.key에 Base64 32B 키 설정.
+#  @PostConstruct에서 Base64 디코드로 키 생성.
+
+#  실행 후 2차 에러: Failed to configure a DataSource. Gradle에 runtimeOnly 'com.h2database:h2' 추가.
+#
+#  Then
+#  jwtUtil 빈 생성 성공.
+#  데이터소스 자동설정 충족.
+#  애플리케이션 정상 기동.

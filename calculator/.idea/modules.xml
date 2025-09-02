@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Calculator.iml" filepath="$PROJECT_DIR$/.idea/Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v1/CalculatorV1CLI/CalculatorV1CLI.iml" filepath="$PROJECT_DIR$/v1/CalculatorV1CLI/CalculatorV1CLI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v1/CalculatorV1GUI/CalculatorV1GUI.iml" filepath="$PROJECT_DIR$/v1/CalculatorV1GUI/CalculatorV1GUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v2/CalculatorV2CLI/CalculatorV2CLI.iml" filepath="$PROJECT_DIR$/v2/CalculatorV2CLI/CalculatorV2CLI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v2/CalculatorV2GUI/CalculatorV2GUI.iml" filepath="$PROJECT_DIR$/v2/CalculatorV2GUI/CalculatorV2GUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v3/CalculatorV3CLI/CalculatorV3CLI.iml" filepath="$PROJECT_DIR$/v3/CalculatorV3CLI/CalculatorV3CLI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v3/CalculatorV3GUI/CalculatorV3GUI.iml" filepath="$PROJECT_DIR$/v3/CalculatorV3GUI/CalculatorV3GUI.iml" />
+    </modules>
+  </component>
+</project>
